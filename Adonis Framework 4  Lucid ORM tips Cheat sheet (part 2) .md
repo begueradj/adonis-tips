@@ -50,7 +50,7 @@ class UserController
     async fetchAll({ view })
     {
         let data = await User.query().with('posts').fetch()
-        return view.render('users', { data: data.JSON() })
+        return view.render('users', { data: data.toJSON() })
     }
 }
 ```
