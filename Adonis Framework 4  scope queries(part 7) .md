@@ -1,4 +1,4 @@
-# Scope Queries in AdonisJs Framework
+# Query Scopes in AdonisJs Framework
 
 Adonis Framework 4 Cheat Sheet **Part 6**
 
@@ -15,7 +15,7 @@ You have this model
 `app/models/User.js`
 
 ```javascript
-class Question extends Model
+class User extends Model
 {
     /*
     ** ........ another code
