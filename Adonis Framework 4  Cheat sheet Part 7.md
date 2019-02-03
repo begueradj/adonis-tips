@@ -1,8 +1,6 @@
 # Query Scopes in AdonisJs Framework
 
-Adonis Framework 4 Cheat Sheet **Part 6**
-
-Made with ❤️ by Alfredo Paz
+Made with ❤️ by Alfredo Paz **Part Seven**
 
 
 
@@ -29,7 +27,9 @@ class User extends Model
 
 
 
-As you can see we have a `hasMany` method to get all users and his related questions, we can build our query in each controller as usually you know, but AdonisJs allows you to create common methods to querying specific tables; in this case the `users` table
+**CLARIFICATIONS**
+
+* As you can see we have a `hasMany` method to get all users and his related questions
 
 
 

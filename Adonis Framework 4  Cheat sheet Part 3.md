@@ -1,8 +1,14 @@
-Adonis Framework 4 Cheat Sheet (Create new columns) **Part 3**
+# Adonis Framework 4 Cheat Sheet 
 
-Made with ❤️ by Alfredo Paz
+Made with ❤️ by Alfredo Paz **Part three**
 
-ADD A NEW COLUMN TO AN EXISTING TABLE.
+
+
+
+
+**ADD A NEW COLUMN TO AN EXISTING TABLE.**
+
+___
 
 In this example we need to add a column named **features** after **email** on an existing table which contains data; drop all migrations **is not an option**
 
@@ -26,6 +32,13 @@ Now the command cli will ask to you if you need create or select a table; please
 > Choose an action Select table
 √ create  database\migrations\1543069307679_add_features_to_users_schema.js
 ```
+
+
+
+**CLARIFICATIONS**
+
+* Choose the `SELECT TABLE` option inside the CLI
+* put a useful name to identify this as an update to your table
 
 
 
@@ -59,6 +72,13 @@ class AddFeaturesToUsersSchema extends Schema {
 module.exports = AddFeaturesToUsersSchema
 
 ```
+
+
+
+**CLARIFICATIONS**
+
+* Optionally you can use the `after` method to indicate the correct position to this new column
+* To indicate the data type you write your column in this way `table.json()` in this case a JSON column
 
 
 

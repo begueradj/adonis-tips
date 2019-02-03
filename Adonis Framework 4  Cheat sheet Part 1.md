@@ -1,6 +1,6 @@
 # Adonis Framework 4 Cheat sheet
 
-made with ❤️ by: Ing. Alfredo
+Made with ❤️ by Alfredo Paz **Part One**
 
 
 
@@ -249,8 +249,6 @@ You will get something like this
 
 _______
 
-
-
 You wanna see part of the query builder power in action?
 
 
@@ -280,6 +278,15 @@ const response = await Database
 					   .orderBy('NP')
 		return response
 ```
+
+
+
+**CLARIFICATIONS**
+
+* Use the `Datbase` helper to write sql commands
+* Using `Database.raw()` to write a pure sql query
+* Put the `Database.raw()` inside a `select()` method 
+* With the query builder you can call the table by it's name with the `table()` method
 
 
 

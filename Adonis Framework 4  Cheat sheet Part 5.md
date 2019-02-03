@@ -1,8 +1,6 @@
 # Adonis Framework 4 Cheat sheet
 
-Adonis Framework 4 Cheat Sheet **Part 5**
-
-Made with ❤️ by Alfredo Paz
+Made with ❤️ by Alfredo Paz **Part Five**
 
 
 
@@ -40,7 +38,7 @@ async index({ view }) {
 
 
 
-So at this point, we need no print data in an organized way; this to consider
+**CLARIFICATIONS**
 
 - data comes from in a json form
 - data is composed of some objects inside of it

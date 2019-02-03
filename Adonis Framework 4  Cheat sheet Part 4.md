@@ -1,8 +1,6 @@
 # Adonis Framework 4 Cheat sheet
 
-Adonis Framework 4 Cheat Sheet  **Part 4**
-
-Made with ❤️ by Alfredo Paz
+Made with ❤️ by Alfredo Paz **Part four**
 
 
 
@@ -10,10 +8,10 @@ Made with ❤️ by Alfredo Paz
 
 ______________________
 
-If you need to store decimal numbers; you need first to do:
+If you need to store decimal numbers; you need to do:
 
 - declare a name to the column, in this example: `price`
-- max length identified by the number 5
+- `max length` identified by the number 5
 - reserved decimal space identified by the number 2
 
 ```javascript
@@ -146,3 +144,4 @@ table.increments()
 ```
 
 and.... thats it
+

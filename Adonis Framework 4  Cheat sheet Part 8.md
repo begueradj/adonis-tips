@@ -1,8 +1,6 @@
 # Adonis Framework 4 Cheat sheet
 
-Adonis Framework 4 Cheat Sheet **Part 8**
-
-Made with ❤️ by Alfredo Paz
+Made with ❤️ by Alfredo Paz **Part Eight**
 
 
 

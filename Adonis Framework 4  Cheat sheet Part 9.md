@@ -1,6 +1,6 @@
-Adonis Framework 4 Cheat Sheet (Lucid ORM and Query Builder tips)
+# Adonis Framework 4 Cheat sheet
 
-Made with ❤️ by Alfredo Paz
+Made with ❤️ by Alfredo Paz **Part Nine**
 
 
 
