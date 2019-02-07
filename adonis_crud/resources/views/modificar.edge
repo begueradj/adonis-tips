@@ -1,0 +1,11 @@
+@layout('app')
+@section('content')
+	<form action="{{ /user/ + findUser.id }}" method="POST">
+	{{ csrfField() }}
+		<input type="text" name="nameUser" value="{{ findUser.nameUser }}">
+		<input type="text" name="passwordUser" value="{{ findUser.passwordUser }}">
+		<input type="submit">
+	</form>
+</body>
+</html>
+@endsection

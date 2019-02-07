@@ -1,0 +1,21 @@
+@layout('app')
+@section('content')
+	<h1>Esto proviene de la base de datos</h1>
+	@each(user in users)
+		<ul>
+			<li>{{ user.nameUser }}</li>
+			<li> {{ user.passwordUser }} </li>
+			<li> {{ user.statusUser }} </li>
+			<li> 
+				<a href="/user/modificar/{{ user.id }}">
+					Modificar el registro: {{ user.id }}
+				</a>
+			</li>
+			<li>
+				<a href="/user/{{ user.id }}">
+					Eliminar el registro: {{ user.id }}
+				</a>
+			</li>
+		</ul>
+	@endeach
+@endsection
