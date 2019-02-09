@@ -7,13 +7,8 @@
 			<li> {{ user.passwordUser }} </li>
 			<li> {{ user.statusUser }} </li>
 			<li> 
-				<a href="/user/modificar/{{ user.id }}">
+				<a href="{{ route('users.modify', {id: user.id}) }}">
 					Modificar el registro: {{ user.id }}
-				</a>
-			</li>
-			<li>
-				<a href="/user/{{ user.id }}">
-					Eliminar el registro: {{ user.id }}
 				</a>
 			</li>
 		</ul>

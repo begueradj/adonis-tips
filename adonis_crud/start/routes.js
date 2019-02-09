@@ -19,8 +19,8 @@ Route.on('/').render('welcome')
 
 
 Route.get('/user/todas', 'UserController.index')
-Route.get('/user/modificar/:id', 'UserController.show')
-Route.post('/user/:id', 'UserController.edit')
+Route.get('/user/modificar/:id', 'UserController.show').as('users.modify')
+Route.post('/user/:id', 'UserController.edit').as('users.find')
 
 Route.get('/user/agregar', 'UserController.create')
 Route.post('/user', 'UserController.store')

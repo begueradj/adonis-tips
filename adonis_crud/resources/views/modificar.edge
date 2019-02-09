@@ -1,6 +1,6 @@
 @layout('app')
 @section('content')
-	<form action="{{ /user/ + findUser.id }}" method="POST">
+	<form action="{{ route('users.find', { id: findUser.id }) }}" method="POST">
 	{{ csrfField() }}
 		<input type="text" name="nameUser" value="{{ findUser.nameUser }}">
 		<input type="text" name="passwordUser" value="{{ findUser.passwordUser }}">
