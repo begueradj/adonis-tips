@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  @each(user in users)
+    Id: {{ user.id }} <br>
+    Enlace a ver detalles<a href="{{ route('user.show', {id: user.id}) }}">{{ user.id }}</a> <br>
+    Enlace para editar <a href="{{ route('user.edit', {id: user.id}) }}">{{ user.nameUser }}</a>
+    <br>
+    Nombre: {{ user.nameUser }} <br>
+    Status: {{ user.statusUser }} <br><br>
+  @endeach
+</body>
+</html>

@@ -1,11 +1,31 @@
-# Adonis JS CRUD 
+# Adonis fullstack application
 
-This is an exercise about the backend tasks, so the frontend is not done(yet)
+This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
 
-1. List all users
-2. Create a new user
-3. Update an user
-4. Managing routes in the frontend with `route()` helper
+1. Bodyparser
+2. Session
+3. Authentication
+4. Web security middleware
+5. CORS
+6. Edge template engine
+7. Lucid ORM
+8. Migrations and seeds
+
+## Setup
+
+Use the adonis command to install the blueprint
+
+```bash
+adonis new yardstick
+```
+
+or manually clone the repo and then run `npm install`.
 
 
-This is still in progress so stay tuned for more content
+### Migrations
+
+Run the following command to run startup migrations.
+
+```js
+adonis migration:run
+```

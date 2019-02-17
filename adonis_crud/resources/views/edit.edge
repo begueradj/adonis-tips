@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="{{ route('user.update', {id: update.id}) }}" method="POST">
+		{{ csrfField() }}
+		<input type="text" name="nameUser" value="{{ update.nameUser }}">
+		<input type="text" name="passwordUser" value="{{ update.passwordUser }}">
+		<input type="text" name="statusUser" value="{{ update.statusUser }}">
+		<input type="submit">
+	</form>
+</body>
+</html>
